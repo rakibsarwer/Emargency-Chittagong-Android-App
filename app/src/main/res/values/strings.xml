@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Emargency Chittagong</string>
+    <string name="app_nameF">Fire Service</string>
+    <string name="app_nameB">Blood Donation</string>
+    <string name="app_nameA">Ambulance Service</string>
+    <string name="app_nameH">Hospitals</string>
+    <string name="app_nameP">Police</string>
+    <string name="app_name2">CardDemo</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="title_activity_main_drawer">MainDrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Emergency Chittagong</string>
+    <string name="nav_header_subtitle">rakibsarwar3@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

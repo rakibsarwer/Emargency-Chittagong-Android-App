@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/icon"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/clinic"
+            android:title="Hospitals" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ambulance"
+            android:title="Ambulance Service" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/policeman"
+            android:title="Police" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/firemen"
+            android:title="Fire Service" />
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/blood"
+            android:title="Blood Donation" />
+    </group>
+
+    <item android:title="Communicate"
+        >
+        <menu>
+            <item
+                android:id="@+id/nav_fb"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/nav_twt"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Message" />
+        </menu>
+    </item>
+
+</menu>

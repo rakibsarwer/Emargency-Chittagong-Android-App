@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.lenovo.emargency">
+
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainDrawerActivity"
+
+            android:label="@string/app_name"
+
+            android:theme="@style/AppTheme.NoActionBar"
+
+
+           >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CardDemoActivity"
+            android:icon="@drawable/hospital"
+            android:label="@string/app_nameH"
+            android:theme="@style/AppThemeH"/>
+        <activity
+            android:name=".AmbulanceCardDemoActivity"
+            android:icon="@drawable/ambulance"
+            android:label="@string/app_nameA"
+            android:theme="@style/AppThemeA"/>
+        <activity
+            android:name=".FireActivity"
+            android:icon="@drawable/firemen"
+
+            android:label="@string/app_nameF"
+            android:theme="@style/AppThemeF"/>
+        <activity
+            android:name=".BloodActivity"
+            android:icon="@drawable/blood"
+            android:label="@string/app_nameB"
+            android:theme="@style/AppThemeB"/>
+        <activity
+            android:name=".PoliceActivity"
+            android:icon="@drawable/policeman"
+            android:label="@string/app_nameP"
+            android:theme="@style/AppThemeP"/>
+
+
+
+    </application>
+
+</manifest>
